@@ -22,7 +22,7 @@ defaults:
     shell: bash
     
 jobs:
-  build_html:
+  build:
     runs-on: ubuntu-latest
 
     steps:
