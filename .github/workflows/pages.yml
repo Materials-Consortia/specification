@@ -20,14 +20,8 @@ concurrency:
 defaults:
   run:
     shell: bash
-on:
-  push:
-    branches:
-      - develop
-  workflow_dispatch:
-
+    
 jobs:
-
   build_html:
     runs-on: ubuntu-latest
 
